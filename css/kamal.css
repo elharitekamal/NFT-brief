@@ -1,0 +1,78 @@
+.meta{
+    text-align: center;
+    font-size: large;
+    padding-top: 50px;
+  }
+  
+  h4{
+   text-align: center;
+   font-size:xx-large;
+   color:aqua;
+  
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    
+  }
+  
+  
+  .nf{
+    margin-left: 45px;
+  }
+  .nf img{
+    border-radius: 30px;
+    width: 300px;
+  
+  }
+  .nf img:hover{
+    transform: scale(1.1);
+  }
+  
+  
+  .nf i{
+  background-color: burlywood;
+  margin-top: 20px;
+  justify-content: space-between;
+  
+  }
+  .rem{
+    padding-top: 20px;
+    cursor: pointer;
+   padding-left: 80px;
+   
+  }
+  .ajout {
+    width: 100%;
+  }
+  .ajout button{
+    cursor: pointer;
+        background-color: #21daff;
+        width: 140px;
+        height: 50px;
+        border-radius: 15px;
+        border: none;
+        color: #000000;
+        margin-top: 100px;
+        display: flex;
+        margin: 4% auto;
+        padding-left: 36px;
+        padding-top: 19px;
+  }
+  
+  .ajout button:hover{
+    transform: scale(1.1);
+  
+  }
+  
+  
+  
+  .txt{
+  font-size: 20px;
+  }
+  
+  @media screen and (max-width: 611px){
+    
+  
+  }
